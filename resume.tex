@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -105,17 +105,10 @@
 
 \begin{document}
 
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    \textbf{\Huge \scshape Yutang Song} \\ \vspace{1pt}
+    \small Email: \href{mailto:leebrouse7@gmail.com}{\underline{leebrouse7@gmail.com}} $|$
+    Mobile: +86 13386210298
 \end{center}
 
 
@@ -123,58 +116,53 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {Wuhan Huaxia Institute of Technology}{Wuhan, China}
+      {Computer Science and Technology (B.Eng.)}{Sep. 2022 -- Jun. 2026}
+      \resumeItemListStart
+        \resumeItem{GPA: 3.7/5 $|$ Average Score: 86.7/100}
+        \resumeItem{Relevant Coursework: Advanced Mathematics (90), Discrete Mathematics (97), Data Structures and Algorithms (93), Operating System (91), Computer Networks (89), Computer Organization (92), Embedded System (91), etc.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
-%-----------EXPERIENCE-----------
-\section{Experience}
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {KodeRover $|$ Zadig (3.3k GitHub Stars)}{}
+      {Golang Backend Developer}{Mar. 2026 -- Jul. 2026}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Merged 28 PRs across workflow execution, RBAC, OpenAPI, host Agent, and releases for KodeRover's cloud-native DevOps platform Zadig. Stack: Go, Gin, MongoDB, MySQL, Kubernetes, Helm, and APISIX.}
+        \resumeItem{Implemented serial/parallel DMS Job execution, APISIX output variables, dynamic parameter rendering, required-field validation, debug metric isolation, Pod event collection, cross-Job variables, and failure diagnosis.}
+        \resumeItem{Added environment/production scaling, read-only, and operation-log RBAC permissions; implemented API authorization, role-action models, SQL initialization, and 4.3/5.0 migration compatibility.}
+        \resumeItem{Extended Pod queries and restarts, host-Agent version-drift detection, login time, environment aliases, cluster-aware YAML, snapshots/rollback, and unified auth, License checks, and audit logs.}
+        \resumeItem{Led Zadig upgrades and traced customer issues across APIs, workflows, and releases.}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
+  \resumeSubHeadingListEnd
 
+%-----------INTERNSHIP EXPERIENCE-----------
+\section{Internship Experience}
+  \resumeSubHeadingListStart
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {Shanghai Jianwen Investment Management Co., Ltd.}{}
+      {Golang Backend Intern}{Oct. 2025 -- Jan. 2026}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+        \resumeItem{Built low-latency crypto trading flows for accounts, orders, real-time market data, and positions. Stack: Go, Binance Futures API, WebSocket, DolphinDB, Docker, and Pulse.}
+        \resumeItem{Integrated Binance Futures API for accounts, concurrent orders/cancels, and real-time positions.}
+        \resumeItem{Subscribed to Aggregate Trade via WebSocket and aggregated 1-minute candles with a worker pool.}
+        \resumeItem{Used DolphinDB's matching engine and stream tables to cut market-data latency from about 3000 ms to 100--300 ms, a roughly 10x improvement.}
+        \resumeItem{Deployed streaming, trading, and DB services with Docker; built PnL, position, and order dashboards in Pulse.}
       \resumeItemListEnd
-
+    \resumeSubheading
+      {Shanghai Zhi'anhua Digital Technology Co., Ltd.}{}
+      {AI Agent Developer}{Jun. 2025 -- Sep. 2025}
+      \resumeItemListStart
+        \resumeItem{Participated in developing a Web automation testing and data analytics system using advanced browser automation to achieve efficient data collection, processing, and analysis, providing technical support for business staff.}
+        \resumeItem{Developed a multi-dimensional spreadsheet integration SDK for Lark, enabling real-time data storage, synchronization, and management.}
+        \resumeItem{Built a complete automated data processing workflow for Lark, achieving end-to-end automation of data flow.}
+        \resumeItem{Integrated the Google Gemini API to build an intelligent data analysis system, providing in-depth data insights.}
+        \resumeItem{Built an RAG API SDK based on ByteDance's Eino framework. \href{https://github.com/leebrouse/EinoRag}{\underline{Source code available on GitHub}}.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -182,34 +170,44 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          {\textbf{Gorder} $|$ \emph{\href{https://github.com/leebrouse/Gorder}{\underline{Source code available on GitHub}}}}{Feb. 2025 -- May 2025}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
+            \resumeItem{Built a distributed e-commerce order system with Stripe payment and callback verification. Stack: Go, Gin, gRPC, Consul, RabbitMQ, MySQL, MongoDB, Redis, OpenTelemetry, Prometheus, and Docker Compose.}
+            \resumeItem{Connected order, inventory, payment, and kitchen via HTTP, gRPC, and RabbitMQ for async Stripe payment.}
+            \resumeItem{Combined Redis SETNX and MySQL pessimistic locks to prevent overselling under concurrent stock deduction.}
+            \resumeItem{Added ACK/NACK, retries, DLQs, and OpenTelemetry context for reliable order/payment events and tracing.}
+            \resumeItem{Added Consul discovery, Prometheus/Jaeger observability, OpenAPI/Protobuf clients, and Docker Compose orchestration.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          {\textbf{Gitlet} $|$ \emph{\href{https://github.com/leebrouse/Gitlet.git}{\underline{Source code available on GitHub}}}}{Oct. 2023 -- Nov. 2023}
           \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+            \resumeItem{Designed and implemented a core version control system, replicating essential Git functionalities including \texttt{add}, \texttt{commit}, \texttt{checkout}, \texttt{branch}, \texttt{merge}, and others.}
+            \resumeItem{Managed persistent storage of repository objects (commits, blobs, and trees) and references (branches and HEAD) using file system operations.}
+            \resumeItem{Applied advanced data structures (e.g., hash maps and graph representations for commit history) and BFS/DFS algorithms (e.g., graph traversal for \texttt{log} and lowest common ancestor for \texttt{merge}) for efficient state management.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
+%-----------OPEN SOURCE-----------
+\section{Open Source Experience}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/lizzy-0323/oasisdb}{Oasisdb - Vector Database}} $|$ \emph{Contributor (PR Merged)}}{}
+      \resumeItemListStart
+        \resumeItem{\href{https://github.com/lizzy-0323/oasisdb/issues/37}{\underline{Issue}}: add flat index, which is very simple, stores each vector, and retrieves it by brute force.}
+        \resumeItem{\href{https://github.com/lizzy-0323/oasisdb/pull/39}{\underline{PR Content}}: Designed and implemented \texttt{FlatIndex}, a simple brute-force vector index that stores vectors and retrieves them by linear scan.}
+        \resumeItem{Completed unit tests ensuring correctness, stability, and compliance with the existing \texttt{VectorIndex} interface.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
 
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+%-----------SKILLS-----------
+\section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: Mandarin (Native); English (B2)} \\
+     \textbf{Development Tools}{: Git, Docker, Kubernetes, Makefile, Markdown, Linux Command} \\
+     \textbf{Design Patterns}{: Practical experience with Factory, Singleton, and Adapter in personal projects.} \\
+     \textbf{AI-Assisted Development}{: OpenAI Codex, Claude Code, MCP (Model Context Protocol), agentic coding workflows, reusable AI skills, and AI-powered tool integration.} \\
+     \textbf{Database}{: Familiar with MySQL SQL statements, transactions, query optimization strategies, Redis, and MongoDB.}
     }}
  \end{itemize}
 
